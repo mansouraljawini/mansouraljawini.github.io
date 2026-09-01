@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Mansour Aljawini — strategic communications, external affairs and executive messaging. Washington, D.C. and Riyadh. Bilingual English/Arabic.">
+<meta name="author" content="Mansour Aljawini">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mansour Aljawini — Selected Work">
+<meta property="og:description" content="Strategic communications, external affairs and executive messaging. Case studies and writing samples across executive, scholarly and consumer registers.">
+<title>Mansour Aljawini</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root{
+    --paper:#F6F4F0; --card:#FFFFFF; --band:#EDEAE4;
+    --ink:#1C1A17; --ink2:#403B34; --muted:#736C62; --rule:#DDD8D0; --hair:#E9E5DE;
+    --accent:#A65A1E; --accent-soft:#F0E4D8;
+    --shadow:0 1px 2px rgba(28,26,23,.05),0 14px 30px -22px rgba(28,26,23,.35);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --paper:#14120F; --card:#1C1917; --band:#221E1A;
+      --ink:#F0EBE3; --ink2:#CFC7BB; --muted:#9A9186; --rule:#332D27; --hair:#282320;
+      --accent:#DE9A5C; --accent-soft:#2B2019;
+      --shadow:0 1px 2px rgba(0,0,0,.5),0 16px 36px -24px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14120F; --card:#1C1917; --band:#221E1A;
+    --ink:#F0EBE3; --ink2:#CFC7BB; --muted:#9A9186; --rule:#332D27; --hair:#282320;
+    --accent:#DE9A5C; --accent-soft:#2B2019;
+    --shadow:0 1px 2px rgba(0,0,0,.5),0 16px 36px -24px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);
+    font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+  .wrap{max-width:1000px;margin:0 auto;padding:0 26px 100px}
+
+  /* masthead */
+  .mast{padding:64px 0 40px;border-bottom:1px solid var(--ink);display:flex;flex-direction:column;gap:16px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--accent);font-weight:500}
+  h1{font-family:"Source Serif 4",Georgia,serif;font-weight:300;
+    font-size:clamp(2.6rem,7vw,4.4rem);line-height:1;letter-spacing:-.02em;margin:0}
+  .role{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.15em;
+    text-transform:uppercase;color:var(--ink2)}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:13.5px;color:var(--muted)}
+  .meta a{color:var(--muted)}
+
+  /* thesis */
+  .thesis{padding:52px 0;border-bottom:1px solid var(--rule);display:grid;
+    grid-template-columns:1.15fr 1fr;gap:44px;align-items:start}
+  .thesis h2{font-family:"Source Serif 4",Georgia,serif;font-weight:400;
+    font-size:clamp(1.7rem,3.6vw,2.5rem);line-height:1.14;letter-spacing:-.015em;margin:0 0 18px;text-wrap:balance}
+  .thesis p{margin:0 0 14px;color:var(--ink2);max-width:60ch}
+  .caps{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+  .cap{background:var(--card);padding:13px 16px}
+  .cap b{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.8px;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:3px}
+  .cap span{font-size:13px;color:var(--ink2)}
+
+  /* figures */
+  .figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:28px;padding:38px 0;border-bottom:1px solid var(--rule)}
+  .fig .n{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:2.5rem;
+    line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+  .fig .l{font-size:12.5px;color:var(--muted);margin-top:7px;max-width:24ch;line-height:1.4}
+
+  /* sections */
+  section{padding:52px 0;border-bottom:1px solid var(--rule)}
+  .sec-eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  h3{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:clamp(1.4rem,2.8vw,1.95rem);
+    line-height:1.16;letter-spacing:-.01em;margin:0 0 8px;text-wrap:balance}
+  .sub{color:var(--muted);font-size:13.5px;margin:0 0 26px}
+  .body-cols{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+  .blk h4{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 7px}
+  .blk p{margin:0 0 16px;color:var(--ink2);font-size:14.2px}
+  .blk p:last-child{margin-bottom:0}
+
+  .pull{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);
+    border-radius:5px;padding:18px 20px;margin-top:22px;box-shadow:var(--shadow)}
+  .pull .k{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+  .pull p{margin:0;font-size:14px;color:var(--ink2)}
+
+  /* experience */
+  .exp{display:flex;flex-direction:column;gap:0}
+  .row{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:15px 0;border-bottom:1px solid var(--hair)}
+  .row:last-child{border-bottom:none}
+  .row .when{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);
+    font-variant-numeric:tabular-nums;padding-top:2px}
+  .row .what b{display:block;font-weight:600;font-size:14.5px;color:var(--ink)}
+  .row .what span{font-size:13.5px;color:var(--muted)}
+
+  /* writing */
+  .quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+  .q{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:22px;
+    display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+  .q .reg{font-family:"IBM Plex Mono",monospace;font-size:9.8px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent)}
+  .q blockquote{margin:0;font-family:"Source Serif 4",Georgia,serif;font-size:16.5px;
+    line-height:1.42;color:var(--ink)}
+  .q .src{font-size:12px;color:var(--muted);line-height:1.45;margin-top:auto}
+
+  /* lists */
+  .items{display:flex;flex-direction:column;gap:20px}
+  .item b{font-weight:600;color:var(--ink)}
+  .item p{margin:5px 0 0;color:var(--ink2);font-size:14px;max-width:80ch}
+  .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:6px}
+  .tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;
+    background:var(--band);color:var(--ink2);border-radius:3px;padding:4px 9px}
+
+  .note{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:18px;max-width:78ch}
+
+  footer{padding:44px 0 0;display:flex;flex-wrap:wrap;gap:10px 26px;
+    font-size:13.5px;color:var(--muted);align-items:baseline}
+  footer .nm{font-family:"Source Serif 4",Georgia,serif;font-size:19px;color:var(--ink)}
+
+  @media (max-width:760px){
+    .thesis,.body-cols{grid-template-columns:1fr;gap:26px}
+    .row{grid-template-columns:1fr;gap:3px}
+    .wrap{padding:0 18px 70px}
+    .mast{padding:44px 0 30px}
+    section,.thesis{padding:38px 0}
+  }
+</style>
+<style>
+  html,body{margin:0}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Washington, D.C. &nbsp;·&nbsp; Riyadh</div>
+    <h1>Mansour Aljawini</h1>
+    <div class="role">Strategic Communications &nbsp;·&nbsp; External Affairs &nbsp;·&nbsp; Bilingual EN / AR</div>
+    <div class="meta">
+      <span>Falls Church, VA</span>
+      <span><a href="mailto:jawini177@gmail.com">jawini177@gmail.com</a></span>
+      <span>+1 202 944 0300</span>
+      <span><a href="https://www.linkedin.com/in/mansour-aljawini">linkedin.com/in/mansour-aljawini</a></span>
+    </div>
+  </header>
+
+  <div class="thesis">
+    <div>
+      <h2>Complex material in. Decisions out.</h2>
+      <p>Experience since 2019 across international finance and policy, regulated healthcare, and aviation external affairs &mdash; in Washington and Riyadh, in English and Arabic.</p>
+      <p>I turn dense technical, regulatory, and cultural material into communication that senior audiences can act on, and I build the brands and experiences that carry it. The work spans executive briefings for an international financial institution, external affairs in the Saudi aviation sector, editorial governance in a regulated healthcare environment, and large-scale public programming in Washington.</p>
+    </div>
+    <div class="caps">
+      <div class="cap"><b>Executive communications</b><span>Leadership briefings, synthesis of technical material, decision-ready narrative.</span></div>
+      <div class="cap"><b>External affairs</b><span>Government, industry, media and regulatory stakeholder relationships.</span></div>
+      <div class="cap"><b>Institutional communications</b><span>Editorial governance, message consistency, compliance-aware writing.</span></div>
+      <div class="cap"><b>Events &amp; programming</b><span>Venue and vendor contracts, logistics, executive and diplomatic activations.</span></div>
+      <div class="cap"><b>Research &amp; audience insight</b><span>Survey design and analysis, competitive research, communication theory.</span></div>
+    </div>
+  </div>
+
+  <div class="figs">
+    <div class="fig"><div class="n">137 &rarr; 8</div><div class="l">pages, IMF Article IV package to executive brief</div></div>
+    <div class="fig"><div class="n">150+</div><div class="l">communications authored and edited in a regulated environment</div></div>
+    <div class="fig"><div class="n">15+</div><div class="l">government, industry and media relationships in Saudi aviation</div></div>
+    <div class="fig"><div class="n">800+</div><div class="l">verified check-ins at Carnival Saudia, against a 550&ndash;600 forecast</div></div>
+  </div>
+
+  <section>
+    <div class="sec-eyebrow">Executive communications</div>
+    <h3>Reading a 137-page consultation package for the decisions inside it</h3>
+    <p class="sub">International Monetary Fund &nbsp;·&nbsp; Intern, Office of the Executive Director for Saudi Arabia &nbsp;·&nbsp; May &ndash; August 2024</p>
+
+    <div class="body-cols">
+      <div class="blk">
+        <h4>Challenge</h4>
+        <p>Article IV consultation packages run to well over a hundred pages of macroeconomic, fiscal and structural analysis. Executive Directors need the decision-relevant content, not the document.</p>
+        <h4>Approach</h4>
+        <p>Read the public package end to end, prioritized risks and outlook over description, and rebuilt the material as a visual brief &mdash; summary first, evidence second, qualitative judgment carried through.</p>
+      </div>
+      <div class="blk">
+        <h4>Output</h4>
+        <p>Executive-ready country briefs across five economies &mdash; China, Switzerland, Zambia, Equatorial Guinea and Somalia. The longest source package was reduced from 137 pages to eight, structured for a reader with minutes rather than hours. Zambia ran 142 pages to seventeen; Switzerland, 67 to eleven.</p>
+        <h4>Also during the internship</h4>
+        <p>Delivered three executive briefings on debt sustainability and risk frameworks directly to the Executive Director. Managed vendor contracts, venue logistics and stakeholder coordination for an executive event hosting more than ninety IMF and World Bank Group directors.</p>
+      </div>
+    </div>
+
+    <div class="pull">
+      <div class="k">Substantive briefing example</div>
+      <p><b>Zambia &mdash; debt restructuring and IMF support.</b> Synthesized the G20 Common Framework, negotiations with bilateral and commercial creditors, debt-sustainability considerations, repayment terms and IMF support through the Extended Credit Facility into a single executive briefing.</p>
+    </div>
+    <p class="note">All source material referenced is publicly released IMF country documentation.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">External affairs</div>
+    <h3>External affairs across Saudi aviation, government and international industry</h3>
+    <p class="sub">Dawli Aerospace, Riyadh &nbsp;·&nbsp; External Affairs Specialist, Jul 2020 &ndash; Dec 2022 &nbsp;·&nbsp; External Affairs Intern, May 2019 &ndash; Jul 2020</p>
+
+    <div class="body-cols">
+      <div class="blk">
+        <h4>Mandate</h4>
+        <p>External Affairs Specialist for a licensed independent Saudi aviation consultancy advising on regulation, market entry and airshows. The role carried responsibility for the firm's communications function &mdash; stakeholder relationships across government, industry and media, media relations, executive narrative, and partner communications.</p>
+        <p>Managed more than fifteen stakeholder and partner relationships, aligning message and positioning among parties with competing interests.</p>
+      </div>
+      <div class="blk">
+        <h4>Government</h4>
+        <p>Regulatory research and market-advisory engagements supporting the Saudi aviation sector under Vision 2030, including work with the General Authority of Civil Aviation.</p>
+        <h4>Industry &amp; media</h4>
+        <p>International firms entering the Saudi market; vendor and partner relationships across market-entry advisory and the firm's airshow consulting practice. Handled the firm's media relations during a period in which <i>Aviation International News</i> cited the firm on Saudi Arabia's national-airline plans.</p>
+      </div>
+    </div>
+
+    <div class="pull">
+      <div class="k">Published positioning &mdash; the firm's aviation-policy commentary in national press</div>
+      <p><b>&ldquo;Can Saudi International Airports Achieve the Goals of Vision 2030?&rdquo;</b> &mdash; <i>Argaam</i>, 3 December 2019. Argues that airport charges at 3.75&times; regional competitors deter carriers, and proposes a lower-fee, higher-traffic model earning through non-aeronautical revenue.</p>
+      <p style="margin-top:12px"><b>&ldquo;Airshows: The Lost Opportunity in the Saudi Economy&rdquo;</b> &mdash; <i>Al-Jazirah</i>, 1 November 2019.</p>
+    </div>
+    <p class="note">Both pieces are publicly available and carry the firm's leadership byline. The role covered the firm's communications function; authorship of the published pieces is not claimed.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Organizational communications</div>
+    <h3>Regulated communications at scale</h3>
+    <p class="sub">Virginia HealthCare Services &nbsp;·&nbsp; Communications Specialist since 2022, after joining as a communications intern</p>
+
+    <div class="body-cols">
+      <div class="blk">
+        <p>A central editorial control point for organizational communications: more than 150 internal and external communications authored and edited since 2022, and over 75 documents standardized for consistency and compliance.</p>
+        <p>Channels run across web, email, FAQs, patient notices, brochures and service updates. Delivery and communication records are maintained in Salesforce and Microsoft 365 so distributed stakeholders stay aligned on message and timing.</p>
+        <div class="tags">
+          <span class="tag">Web</span><span class="tag">Email</span><span class="tag">FAQs</span>
+          <span class="tag">Patient notices</span><span class="tag">Brochures</span><span class="tag">Service updates</span>
+        </div>
+      </div>
+      <div class="blk">
+        <h4>How a communication moves</h4>
+        <p><b>01 &mdash; Complex source material.</b> Medical, insurance, operational and administrative content arriving from across the organization.</p>
+        <p><b>02 &mdash; Stakeholder verification.</b> Clinical and administrative stakeholders confirm accuracy before anything is written for an audience.</p>
+        <p><b>03 &mdash; Audience-specific writing.</b> Patient, employee and partner versions sequenced so each audience gets a consistent explanation of what is changing and why.</p>
+        <p><b>04 &mdash; Editorial control.</b> A central control point keeps messaging consistent, compliant and defensible across every channel.</p>
+        <p><b>05 &mdash; Delivery and record.</b> Distribution and approval records maintained for traceability.</p>
+      </div>
+    </div>
+    <p class="note">No patient or personally identifiable information appears in this portfolio.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Institutional engagement</div>
+    <h3>Working in diplomatic and institutional settings</h3>
+    <p class="sub">Gala operations for a Washington policy council, event supervision at the Royal Embassy of Saudi Arabia, and recognition from the Saudi Arabian Cultural Mission</p>
+
+    <div class="items">
+      <div class="item">
+        <b>National Council on U.S.-Arab Relations &mdash; 40th Anniversary Gala</b>
+        <p>Event supervisor for the Council's 40th anniversary gala at the Willard InterContinental, 16 November 2023, serving as VIP liaison to the evening's keynote speaker, HRH Prince Turki Al Faisal &mdash; former Director General of Saudi Arabia's General Intelligence Directorate and former Saudi Ambassador to the United States.</p>
+      </div>
+      <div class="item">
+        <b>Royal Embassy of Saudi Arabia &mdash; Passport DC 2024</b>
+        <p>One of five event supervisors coordinating more than eighty volunteers across traffic flow, guest experience and logistics for the Embassy's Passport DC program on 4 May 2024, delivered with event contractor Eventy, for a reported record 4,000+ visitors &mdash; and served as VIP liaison to Mayor Muriel Bowser of the District of Columbia, coordinating on site between the Embassy's security and the Mayor's detail and staff. Event recorded by the Saudi Press Agency.</p>
+      </div>
+      <div class="item">
+        <b>Saudi Arabian Cultural Mission to the USA</b>
+        <p>Certificate of Recognition, May 2024, for &ldquo;excellent organizational skills and outstanding contribution&rdquo; as 2024 Club President of the Saudi Student Association at Marymount University &mdash; signed by the Cultural Attach&eacute; and the Director of Cultural &amp; Social Affairs, Royal Embassy of Saudi Arabia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Brand strategy &amp; program leadership</div>
+    <h3>Rebuilding a student association's brand, and the program that ran on it</h3>
+    <p class="sub">Saudi Student Association, Marymount University &nbsp;·&nbsp; President &nbsp;·&nbsp; designer of the identity, author of its operating framework, creator of its flagship event</p>
+
+    <div class="body-cols">
+      <div class="blk">
+        <h4>What I built</h4>
+        <p>Designed the current SSA logo and visual identity, and produced the rebrand framework book documenting the system. Authored the ARCUS five-pillar operating framework &mdash; Academia, Representation, Culture, Unity, Support &mdash; and the operating blueprint behind it.</p>
+        <p>Created the association's Instagram presence from scratch and handed it to the succeeding elected administration on graduation. Built the WhatsApp community that remains the association's primary member channel, and led a five-member executive board.</p>
+      </div>
+      <div class="blk">
+        <h4>The flagship &mdash; Carnival Saudia</h4>
+        <p>800+ verified attendees confirmed through Eventbrite check-in scans, against 550&ndash;600 expected in the approved planning proposal. Delivered with the Saudi student associations of five DMV universities &mdash; George Washington, George Mason, Catholic, American and Maryland.</p>
+        <p>Thirteen vendors and commercial partners secured at proposal stage; a retail partnership tied ticket acquisition to coffee orders. Full site plan &mdash; zoning, ADA and VIP parking, wayfinding, evacuation points and a rain contingency &mdash; authorized through the university's risk manager.</p>
+        <h4>The wider program</h4>
+        <p>Five large-scale events across the leadership period &mdash; Carnival Saudia, Saudi Foundation Day delivered twice, Laylat Najd, and the Catmosphere Catwalk for the Saudi-led Arabian leopard campaign. Named Club of the Year, a first in the association's history at Marymount.</p>
+      </div>
+    </div>
+    <p class="note">The 800+ figure is an event outcome supplied from Eventbrite check-in records; 550&ndash;600 is the forecast documented in the approved planning proposal.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Selected writing</div>
+    <h3>Three registers, three readers</h3>
+    <p class="sub">Verbatim excerpts. Each was written for a different audience under a different constraint &mdash; an Executive Director with minutes, a peer-reviewed readership, and a customer at the point of purchase.</p>
+
+    <div class="quotes">
+      <div class="q">
+        <div class="reg">Executive briefing</div>
+        <blockquote>&ldquo;China's economy rebounded in 2023 with real GDP growth around 5%, driven by strong domestic demand and supported by effective macroeconomic policies. Projections indicate a slowdown in China's GDP growth to 4.6% in 2024, primarily due to ongoing challenges in the property sector and weaker external demand.&rdquo;</blockquote>
+        <div class="src"><b>IMF 2023 Article IV brief &mdash; China, page 2.</b> Written for a reader with minutes rather than hours. Rebound and slowdown set against each other in two panels, with the three material risks beside them.</div>
+      </div>
+      <div class="q">
+        <div class="reg">Scholarly</div>
+        <blockquote>&ldquo;Persuasive feedback can improve a targeted behavior while coinciding with deterioration or improvement elsewhere. This article argues that such divergence is partly a matter of communication design.&rdquo;</blockquote>
+        <div class="src"><b>&ldquo;When Persuasive Feedback Undermines Itself&rdquo; &mdash; abstract, sole author.</b> The opening does what a technical abstract must: state the anomaly in one sentence, claim the mechanism in the next. Publicly distributed on SSRN; not peer-reviewed, in development for journal submission.</div>
+      </div>
+      <div class="q">
+        <div class="reg">Consumer &amp; brand</div>
+        <blockquote>&ldquo;Built by hand. Made to last. Designed to stand apart.&rdquo;</blockquote>
+        <div class="src"><b>BUILT Leatherworks &mdash; storefront and brand copy.</b> Written for a customer deciding in seconds. Two lines carry the whole positioning: construction, durability and distinction in the first; audience and business model in the second. Naming, positioning and copy are my own.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Experience</div>
+    <h3>Where the work happened</h3>
+    <div class="exp">
+      <div class="row"><div class="when">Aug 2022 &ndash;</div><div class="what"><b>Communications Specialist</b><span>Virginia HealthCare Services &mdash; joined as communications intern, May 2022</span></div></div>
+      <div class="row"><div class="when">May &ndash; Aug 2024</div><div class="what"><b>Intern, Office of the Executive Director for Saudi Arabia</b><span>International Monetary Fund, Washington, D.C.</span></div></div>
+      <div class="row"><div class="when">Jul 2020 &ndash; Dec 2022</div><div class="what"><b>External Affairs Specialist</b><span>Dawli Aerospace, Riyadh</span></div></div>
+      <div class="row"><div class="when">May 2019 &ndash; Jul 2020</div><div class="what"><b>External Affairs Intern</b><span>Dawli Aerospace &mdash; remote, then Riyadh</span></div></div>
+      <div class="row"><div class="when">Jul 2019 &ndash;</div><div class="what"><b>Founder and Designer</b><span>BUILT Leatherworks Inc. &mdash; made-to-order consumer brand, handmade in Italy</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">Projects &amp; research</div>
+    <h3>Selected independent work</h3>
+    <div class="items">
+      <div class="item">
+        <b>Working paper, sole author &mdash; &ldquo;When Persuasive Feedback Undermines Itself: Construal, Audience Visibility, and Cross-Context Behavior&rdquo;</b>
+        <p>Develops five formal propositions and a two-study empirical agenda on message framing, social norms and audience visibility. Publicly distributed on SSRN, August 2026; not peer-reviewed, in development for journal submission. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7222620">SSRN abstract 7222620</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0001-5801-9674">ORCID</a></p>
+      </div>
+      <div class="item">
+        <b>Brand &amp; marketing strategy &mdash; Shotted Specialty Coffee, client engagement</b>
+        <p>Delivered an integrated marketing and brand strategy for a multi-location Northern Virginia specialty coffee brand, coordinated directly with the founder and implemented by the company. A 19-page situational analysis and marketing plan covering competitive analysis of five direct and indirect competitors, PESTLE and SWOT, and segmentation, targeting and positioning; SMART objectives with a supporting KPI framework; and a separate Washington, D.C. market-entry plan covering site strategy, pricing, promotion, digital and community activation, and budget. Primary research included an executive interview with the Tysons Board of Commerce chairman and a cultural-branding working session with the founder and an outside agency CEO.</p>
+      </div>
+      <div class="item">
+        <b>Product marketing &amp; go-to-market &mdash; NARA, concept project</b>
+        <p>Original product concept developed end to end and presented solo: identified the consumer trust problem through market research, defined the brand name, value proposition and positioning, sized three adjacent markets, and built the business model, distribution strategy, marketing plan and compliance framework.</p>
+      </div>
+      <div class="item">
+        <b>Audience research &amp; measurement</b>
+        <p>Designed and analyzed a 150-respondent survey using regression, t-tests and ANOVA in RStudio and Qualtrics, translating findings into awareness, engagement, messaging and channel-strategy recommendations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-bottom:none">
+    <div class="sec-eyebrow">Education, tools &amp; credentials</div>
+    <h3>Background</h3>
+    <div class="body-cols">
+      <div class="blk">
+        <h4>Education</h4>
+        <p><b>The George Washington University</b> &mdash; M.S., Marketing, May 2026. Full merit scholarship.<br>
+        <b>American University, School of Communication</b> &mdash; graduate coursework, Strategic Communication, Aug&ndash;Dec 2024.<br>
+        <b>Marymount University</b> &mdash; B.B.A., Marketing specialization, cum laude, May 2024. Full merit scholarship.</p>
+        <h4>Honors</h4>
+        <p>Senior Spotlight, top seven graduates &nbsp;·&nbsp; Senior Leadership Award &nbsp;·&nbsp; Apollonie Inclusive Excellence Award &nbsp;·&nbsp; Dean's Honors List</p>
+        <h4>Affiliations &amp; languages</h4>
+        <p>International Communication Association, member &nbsp;·&nbsp; IMF Spring Meetings 2025 &amp; 2026, delegate/observer &nbsp;·&nbsp; Arabic (native) &nbsp;·&nbsp; English (native)</p>
+      </div>
+      <div class="blk">
+        <h4>Tools</h4>
+        <div class="tags">
+          <span class="tag">Microsoft 365</span><span class="tag">Google Workspace</span><span class="tag">Salesforce</span>
+          <span class="tag">Asana</span><span class="tag">Workday</span><span class="tag">Adobe Acrobat</span>
+          <span class="tag">Photoshop</span><span class="tag">Adobe Workfront</span><span class="tag">Canva</span>
+          <span class="tag">Mailchimp</span><span class="tag">Meta Ads Manager</span><span class="tag">Hootsuite</span>
+          <span class="tag">Qualtrics</span><span class="tag">RStudio</span><span class="tag">GitHub</span>
+        </div>
+        <h4 style="margin-top:18px">Certifications</h4>
+        <p>HarvardX: U.S. Public Policy (2026) &nbsp;·&nbsp; CITI Program / American University: Students Conducting No More Than Minimal Risk Research (2024, valid through 2027) &nbsp;·&nbsp; Harvard Business School Online: Global Business (2022) &nbsp;·&nbsp; University of Virginia: AI in Marketing (2023) &nbsp;·&nbsp; Mailchimp Academy: Email Marketing &nbsp;·&nbsp; Google Analytics Certification (2022)</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="nm">Mansour Aljawini</span>
+    <span><a href="mailto:jawini177@gmail.com">jawini177@gmail.com</a></span>
+    <span>+1 202 944 0300</span>
+    <span><a href="https://www.linkedin.com/in/mansour-aljawini">LinkedIn</a></span>
+    <span>Full illustrated portfolio and r&eacute;sum&eacute; available on request.</span>
+  </footer>
+
+</div>
+
+</body>
+</html>
